@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class CourseController {
 	
-	//http://localhost:8080/courses
+	//http://localhost:8080/api/courses
 	@GetMapping("/courses")
 	public List<Course> retriveAllCourses(){
 		return Arrays.asList(
